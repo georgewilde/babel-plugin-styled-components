@@ -72,8 +72,8 @@ const getDisplayName = t => (path, state) => {
       return componentName
     }
     return componentName
-      ? `${prefixLeadingDigit(blockName)}__${componentName}`
-      : prefixLeadingDigit(blockName)
+      ? `${blockName}__${componentName}`
+      : blockName
   } else {
     return componentName
   }
@@ -134,10 +134,7 @@ const getNextId = state => {
 }
 
 const getComponentId = state => {
-  // Prefix the identifier with a character because CSS classes cannot start with a number
-  return `${useNamespace(state)}${prefixLeadingDigit(
-    getFileHash(state)
-  )}-${getNextId(state)}`
+  return `${useNamespace(state)}sc-${getFileHash(state)}-${getNextId(state)}`
 }
 
 export default t => (path, state) => {
