@@ -16,7 +16,7 @@ export default function({ types: t }) {
            * Ensure that the correct options are on the state object.
            * @see https://github.com/styled-components/babel-plugin-styled-components/issues/312
            */
-        state.opts = {ssr: true, namespace: "sc-"};
+        state.opts = {ssr: true, displayName: false, namespace: "sc-"};
 
         path.traverse(
           {
