@@ -11,6 +11,13 @@ export default function({ types: t }) {
     inherits: syntax,
     visitor: {
       Program(path, state) {
+        /*
+           * There is a bug with jest-babel or babel-plugin-styled-components that results in these options only being correctly set for some nodes.
+           * Ensure that the correct options are on the state object.
+           * @see https://github.com/styled-components/babel-plugin-styled-components/issues/312
+           */
+        state.opts = {ssr: true, namespace: "sc-"};
+
         path.traverse(
           {
             JSXAttribute(path, state) {
