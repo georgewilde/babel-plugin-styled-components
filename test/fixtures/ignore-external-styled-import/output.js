@@ -2,7 +2,7 @@ import { styled } from '@material/ui';
 import s from 'styled-components';
 const Paragraph = s.p.withConfig({
   displayName: "code__Paragraph",
-  componentId: "sc-10i7tpl-0"
+  componentId: "sc-__wa2k9b-0"
 })(["color:green;"]);
 
 const Foo = p => <Paragraph {...p} />;

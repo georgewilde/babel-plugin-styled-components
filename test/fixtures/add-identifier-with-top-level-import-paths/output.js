@@ -1,21 +1,11 @@
 import styled from '@xstyled/styled-components';
-const Test = styled.div.withConfig({
-  componentId: "sc-1mlyrvc-0"
-})`width:100%;`;
-const Test2 = true ? styled.div.withConfig({
-  componentId: "sc-1mlyrvc-1"
-})`` : styled.div.withConfig({
-  componentId: "sc-1mlyrvc-2"
-})``;
+const Test = styled.div`
+  width: 100%;
+`;
+const Test2 = true ? styled.div`` : styled.div``;
 const styles = {
-  One: styled.div.withConfig({
-    componentId: "sc-1mlyrvc-3"
-  })``
+  One: styled.div``
 };
 let Component;
-Component = styled.div.withConfig({
-  componentId: "sc-1mlyrvc-4"
-})``;
-const WrappedComponent = styled(Inner).withConfig({
-  componentId: "sc-1mlyrvc-5"
-})``;
+Component = styled.div``;
+const WrappedComponent = styled(Inner)``;

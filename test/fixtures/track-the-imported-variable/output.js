@@ -1,27 +1,27 @@
 import s from "styled-components";
 const Test = s.div.withConfig({
-  displayName: "Test",
-  componentId: "wyof43-0"
-})`width:100%;`;
+  displayName: "code__Test",
+  componentId: "sc-__y04hmb-0"
+})(["width:100%;"]);
 const Test2 = true ? s.div.withConfig({
-  displayName: "Test2",
-  componentId: "wyof43-1"
-})`` : s.div.withConfig({
-  displayName: "Test2",
-  componentId: "wyof43-2"
-})``;
+  displayName: "code__Test2",
+  componentId: "sc-__y04hmb-1"
+})([""]) : s.div.withConfig({
+  displayName: "code__Test2",
+  componentId: "sc-__y04hmb-2"
+})([""]);
 const styles = {
   One: s.div.withConfig({
-    displayName: "One",
-    componentId: "wyof43-3"
-  })``
+    displayName: "code__One",
+    componentId: "sc-__y04hmb-3"
+  })([""])
 };
 let Component;
 Component = s.div.withConfig({
-  displayName: "Component",
-  componentId: "wyof43-4"
-})``;
+  displayName: "code__Component",
+  componentId: "sc-__y04hmb-4"
+})([""]);
 const WrappedComponent = s(Inner).withConfig({
-  displayName: "WrappedComponent",
-  componentId: "wyof43-5"
-})``;
+  displayName: "code__WrappedComponent",
+  componentId: "sc-__y04hmb-5"
+})([""]);

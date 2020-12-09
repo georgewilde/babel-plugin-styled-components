@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-const GlobalStyle = /*#__PURE__*/createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   body {
     color: red;
   }

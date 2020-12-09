@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
-const partial = /*#__PURE__*/css(["color:red;"]);
-const Component = /*#__PURE__*/styled.div.withConfig({
+const partial = css(["color:red;"]);
+const Component = styled.div.withConfig({
   displayName: "code__Component",
-  componentId: "sc-4wpzk3-0"
+  componentId: "sc-__sc-3go4ts-0"
 })(["", ";background:blue;"], partial);

@@ -11,19 +11,11 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n      width: 35em;\n    "]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-var _StyledDiv = (0, _styledComponents["default"])("div")(_templateObject());
+// @flow
+var _StyledDiv = (0, _styledComponents["default"])("div").withConfig({
+  displayName: "code___StyledDiv",
+  componentId: "sc-__sc-1ut28if-0"
+})(["width:35em;"]);
 
 var _default = function _default() {
   return <_StyledDiv />;

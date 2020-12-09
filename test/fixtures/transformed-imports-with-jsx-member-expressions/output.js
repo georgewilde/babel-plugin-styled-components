@@ -16,7 +16,7 @@ const someCss = (0, _styledComponents.css)([" background:purple;"]);
 
 var _StyledIcons = (0, _styledComponents.default)(_icons.default).withConfig({
   displayName: "code___StyledIcons",
-  componentId: "sc-1wxehft-0"
+  componentId: "sc-__sc-1wu7oqv-0"
 })(["", ""], someCss);
 
 const App1 = () => {
@@ -25,7 +25,7 @@ const App1 = () => {
 
 var _StyledIconsFoo = (0, _styledComponents.default)(_icons.default.Foo).withConfig({
   displayName: "code___StyledIconsFoo",
-  componentId: "sc-1wxehft-1"
+  componentId: "sc-__sc-1wu7oqv-1"
 })(["", ""], someCss);
 
 const App2 = () => {
@@ -34,7 +34,7 @@ const App2 = () => {
 
 var _StyledIconsFooBar = (0, _styledComponents.default)(_icons.default.Foo.Bar).withConfig({
   displayName: "code___StyledIconsFooBar",
-  componentId: "sc-1wxehft-2"
+  componentId: "sc-__sc-1wu7oqv-2"
 })(["", ""], someCss);
 
 const App3 = () => {
