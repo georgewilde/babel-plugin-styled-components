@@ -2,7 +2,7 @@
   "version": "1.12.2",
   "name": "@georgewilde/babel-plugin-styled-components",
   "description": "Improve the debugging experience and add server-side rendering support to styled-components",
-  "repository": "styled-components/babel-plugin-styled-components",
+  "repository": "@georgewilde/babel-plugin-styled-components",
   "contributors": [
     "Vladimir Danchenkov <vladimir.danchenkov@gmail.com>",
     "Max Stoiber <contact@mxstbr.com>",
